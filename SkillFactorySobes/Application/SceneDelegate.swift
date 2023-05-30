@@ -15,11 +15,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Creating a Navigation Controller and connecting to a ViewController
         let initialViewController = ViewController(dataSourse: DataSource(), delegate: Delegate())
+        let roorViewController = UINavigationController(rootViewController: initialViewController)
         
         guard let windowScene  = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = initialViewController
+        window?.rootViewController = roorViewController
         window?.makeKeyAndVisible()
     }
 

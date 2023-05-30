@@ -33,9 +33,22 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         configureTableView()
         bing()
+        tapCell()
     }
+    
+    // MARK: - Actions
+    func tapCell() {
+        delegate.onTapCell = { [weak self] index in
+            guard let self else { return }
 
+            let detailVC = DetailController()
+            
+            detailVC.cellIndex = index
+            detailVC.allCharacters = self.viewModel.allCharacters
 
+            self.navigationController?.pushViewController(detailVC, animated: true)
+        }
+    }
 }
 
 // MARK: - Private methods

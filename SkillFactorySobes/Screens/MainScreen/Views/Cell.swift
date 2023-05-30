@@ -15,23 +15,16 @@ final class Cell: UITableViewCell {
         return String(describing: self)
     }
     
-    private let nameLabel: UILabel = {
-        let label = UILabel()
-        label.textColor = .darkText
-        label.font = .systemFont(ofSize: 22)
-        label.numberOfLines = 0
-        return label
-    }()
+    private let nameLabel = Customlabel()
     
-    private let characterImage: UIImageView = {
-        let view = UIImageView()
-        view.contentMode = .scaleAspectFit
-        return view
-    }()
+    private let characterImage = CustomImageView(frame: .zero)
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        selectionStyle = .none
         addedSubview()
+        
+        createAccesibilityIdentifier()
     }
     
     required init?(coder: NSCoder) {
@@ -59,16 +52,25 @@ final class Cell: UITableViewCell {
         addSubview(characterImage)
         
         characterImage.snp.makeConstraints { make in
-            make.width.equalTo(120)
-            make.height.equalTo(70)
+            make.width.equalTo(80)
+            make.height.equalTo(80)
             make.leading.equalTo(10)
             make.centerY.equalTo(self)
         }
         
         nameLabel.snp.makeConstraints { make in
-            make.leading.equalTo(characterImage.snp_trailingMargin).offset(20)
+            make.leading.equalTo(characterImage.snp_trailingMargin).offset(30)
             make.trailing.equalTo(self).offset(-10)
             make.centerY.equalTo(self)
         }
+    }
+}
+
+// MARK: - AccessibilityIdentifier
+private extension Cell {
+    
+    func createAccesibilityIdentifier() {
+        characterImage.accessibilityIdentifier = "character_Image"
+        nameLabel.accessibilityIdentifier = "name_Label"
     }
 }

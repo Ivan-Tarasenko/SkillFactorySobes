@@ -25,6 +25,9 @@ class Characters: Mappable {
     
     var name: String = ""
     var image: String = ""
+    var status: String = ""
+    var species: String = ""
+    var gender: String = ""
     
     required init?(map: ObjectMapper.Map) {
         
@@ -34,6 +37,9 @@ class Characters: Mappable {
         
         name <- map["name"]
         image <- map["image"]
+        status <- map["status"]
+        species <- map["species"]
+        gender <- map["gender"]
     }
     
 }
