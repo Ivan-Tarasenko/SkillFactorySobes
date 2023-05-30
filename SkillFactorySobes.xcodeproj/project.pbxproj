@@ -22,7 +22,32 @@
 		1A7C3C0C2A26537B00781D4B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C3C0B2A26537B00781D4B /* NetworkManager.swift */; };
 		1A7C3C0E2A26566500781D4B /* RickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C3C0D2A26566500781D4B /* RickModel.swift */; };
 		1A7C3C112A26574100781D4B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C3C102A26574100781D4B /* ViewModel.swift */; };
+		1A7C3C182A266ACA00781D4B /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C3C172A266ACA00781D4B /* DetailController.swift */; };
+		1A7C3C1D2A266C3500781D4B /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C3C1C2A266C3500781D4B /* CustomLabel.swift */; };
+		1A7C3C1F2A267AE100781D4B /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C3C1E2A267AE100781D4B /* CustomImageView.swift */; };
+		1A7C3C272A26889900781D4B /* SkillFactorySobes_Unit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C3C262A26889900781D4B /* SkillFactorySobes_Unit_Tests.swift */; };
+		1A7C3C342A2688AA00781D4B /* SkillFactorySobes_UITests_Main_Screem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C3C332A2688AA00781D4B /* SkillFactorySobes_UITests_Main_Screem.swift */; };
+		1A7C3C362A2688AA00781D4B /* SkillFactorySobes_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C3C352A2688AA00781D4B /* SkillFactorySobes_UITestsLaunchTests.swift */; };
+		1A7C3C3D2A268E9500781D4B /* IDElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C3C3C2A268E9500781D4B /* IDElements.swift */; };
+		1A7C3C3F2A26946400781D4B /* SkillFactorySobes_UITests_Detail_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C3C3E2A26946400781D4B /* SkillFactorySobes_UITests_Detail_Screen.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A7C3C282A26889900781D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7C3BD02A26329800781D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7C3BD72A26329800781D4B;
+			remoteInfo = SkillFactorySobes;
+		};
+		1A7C3C372A2688AA00781D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7C3BD02A26329800781D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7C3BD72A26329800781D4B;
+			remoteInfo = SkillFactorySobes;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1A7C3BD82A26329800781D4B /* SkillFactorySobes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkillFactorySobes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +63,16 @@
 		1A7C3C0B2A26537B00781D4B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1A7C3C0D2A26566500781D4B /* RickModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickModel.swift; sourceTree = "<group>"; };
 		1A7C3C102A26574100781D4B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1A7C3C172A266ACA00781D4B /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		1A7C3C1C2A266C3500781D4B /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		1A7C3C1E2A267AE100781D4B /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		1A7C3C242A26889900781D4B /* SkillFactorySobes_Unit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillFactorySobes_Unit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7C3C262A26889900781D4B /* SkillFactorySobes_Unit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillFactorySobes_Unit_Tests.swift; sourceTree = "<group>"; };
+		1A7C3C312A2688AA00781D4B /* SkillFactorySobes_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillFactorySobes_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7C3C332A2688AA00781D4B /* SkillFactorySobes_UITests_Main_Screem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillFactorySobes_UITests_Main_Screem.swift; sourceTree = "<group>"; };
+		1A7C3C352A2688AA00781D4B /* SkillFactorySobes_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillFactorySobes_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A7C3C3C2A268E9500781D4B /* IDElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDElements.swift; sourceTree = "<group>"; };
+		1A7C3C3E2A26946400781D4B /* SkillFactorySobes_UITests_Detail_Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillFactorySobes_UITests_Detail_Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +87,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1A7C3C212A26889900781D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7C3C2E2A2688AA00781D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				1A7C3BDA2A26329800781D4B /* SkillFactorySobes */,
+				1A7C3C252A26889900781D4B /* SkillFactorySobes_Unit_Tests */,
+				1A7C3C322A2688AA00781D4B /* SkillFactorySobes_UITests */,
 				1A7C3BD92A26329800781D4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				1A7C3BD82A26329800781D4B /* SkillFactorySobes.app */,
+				1A7C3C242A26889900781D4B /* SkillFactorySobes_Unit_Tests.xctest */,
+				1A7C3C312A2688AA00781D4B /* SkillFactorySobes_UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,7 +130,7 @@
 				1A7C3BF12A26330C00781D4B /* Application */,
 				1A7C3C0A2A26536200781D4B /* NetworkManager */,
 				1A7C3BF02A2632B900781D4B /* Resources */,
-				1A7C3BF22A26333500781D4B /* Screen */,
+				1A7C3BF22A26333500781D4B /* Screens */,
 				1A7C3BEF2A2632A300781D4B /* SupportingFile */,
 			);
 			path = SkillFactorySobes;
@@ -95,6 +148,7 @@
 		1A7C3BF02A2632B900781D4B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1A7C3C1B2A266C1900781D4B /* BaseCustomViews */,
 				1A7C3BE42A26329900781D4B /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -109,14 +163,13 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		1A7C3BF22A26333500781D4B /* Screen */ = {
+		1A7C3BF22A26333500781D4B /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				1A7C3C0F2A26567000781D4B /* Models */,
-				1A7C3BF92A2647F600781D4B /* Views */,
-				1A7C3BF32A26334A00781D4B /* Controllers */,
+				1A7C3C122A266A1D00781D4B /* MainScreen */,
+				1A7C3C132A266A5200781D4B /* DetailScreen */,
 			);
-			path = Screen;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		1A7C3BF32A26334A00781D4B /* Controllers */ = {
@@ -154,6 +207,76 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		1A7C3C122A266A1D00781D4B /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1A7C3C0F2A26567000781D4B /* Models */,
+				1A7C3BF92A2647F600781D4B /* Views */,
+				1A7C3BF32A26334A00781D4B /* Controllers */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		1A7C3C132A266A5200781D4B /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1A7C3C162A266A8D00781D4B /* Models */,
+				1A7C3C152A266A8500781D4B /* Views */,
+				1A7C3C142A266A6900781D4B /* Controllers */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		1A7C3C142A266A6900781D4B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A7C3C172A266ACA00781D4B /* DetailController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1A7C3C152A266A8500781D4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A7C3C162A266A8D00781D4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A7C3C1B2A266C1900781D4B /* BaseCustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				1A7C3C1C2A266C3500781D4B /* CustomLabel.swift */,
+				1A7C3C1E2A267AE100781D4B /* CustomImageView.swift */,
+			);
+			path = BaseCustomViews;
+			sourceTree = "<group>";
+		};
+		1A7C3C252A26889900781D4B /* SkillFactorySobes_Unit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A7C3C262A26889900781D4B /* SkillFactorySobes_Unit_Tests.swift */,
+			);
+			path = SkillFactorySobes_Unit_Tests;
+			sourceTree = "<group>";
+		};
+		1A7C3C322A2688AA00781D4B /* SkillFactorySobes_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A7C3C3E2A26946400781D4B /* SkillFactorySobes_UITests_Detail_Screen.swift */,
+				1A7C3C332A2688AA00781D4B /* SkillFactorySobes_UITests_Main_Screem.swift */,
+				1A7C3C352A2688AA00781D4B /* SkillFactorySobes_UITestsLaunchTests.swift */,
+				1A7C3C3C2A268E9500781D4B /* IDElements.swift */,
+			);
+			path = SkillFactorySobes_UITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,6 +303,42 @@
 			productReference = 1A7C3BD82A26329800781D4B /* SkillFactorySobes.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1A7C3C232A26889900781D4B /* SkillFactorySobes_Unit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7C3C2A2A26889900781D4B /* Build configuration list for PBXNativeTarget "SkillFactorySobes_Unit_Tests" */;
+			buildPhases = (
+				1A7C3C202A26889900781D4B /* Sources */,
+				1A7C3C212A26889900781D4B /* Frameworks */,
+				1A7C3C222A26889900781D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7C3C292A26889900781D4B /* PBXTargetDependency */,
+			);
+			name = SkillFactorySobes_Unit_Tests;
+			productName = SkillFactorySobes_Unit_Tests;
+			productReference = 1A7C3C242A26889900781D4B /* SkillFactorySobes_Unit_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A7C3C302A2688AA00781D4B /* SkillFactorySobes_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7C3C392A2688AA00781D4B /* Build configuration list for PBXNativeTarget "SkillFactorySobes_UITests" */;
+			buildPhases = (
+				1A7C3C2D2A2688AA00781D4B /* Sources */,
+				1A7C3C2E2A2688AA00781D4B /* Frameworks */,
+				1A7C3C2F2A2688AA00781D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7C3C382A2688AA00781D4B /* PBXTargetDependency */,
+			);
+			name = SkillFactorySobes_UITests;
+			productName = SkillFactorySobes_UITests;
+			productReference = 1A7C3C312A2688AA00781D4B /* SkillFactorySobes_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -192,6 +351,14 @@
 				TargetAttributes = {
 					1A7C3BD72A26329800781D4B = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					1A7C3C232A26889900781D4B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1A7C3BD72A26329800781D4B;
+					};
+					1A7C3C302A2688AA00781D4B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1A7C3BD72A26329800781D4B;
 					};
 				};
 			};
@@ -215,6 +382,8 @@
 			projectRoot = "";
 			targets = (
 				1A7C3BD72A26329800781D4B /* SkillFactorySobes */,
+				1A7C3C232A26889900781D4B /* SkillFactorySobes_Unit_Tests */,
+				1A7C3C302A2688AA00781D4B /* SkillFactorySobes_UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,6 +398,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1A7C3C222A26889900781D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7C3C2F2A2688AA00781D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -237,18 +420,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A7C3BFF2A26482000781D4B /* Delegate.swift in Sources */,
+				1A7C3C1F2A267AE100781D4B /* CustomImageView.swift in Sources */,
 				1A7C3C112A26574100781D4B /* ViewModel.swift in Sources */,
+				1A7C3C1D2A266C3500781D4B /* CustomLabel.swift in Sources */,
 				1A7C3BE02A26329800781D4B /* ViewController.swift in Sources */,
 				1A7C3BFB2A26480D00781D4B /* Cell.swift in Sources */,
 				1A7C3C0C2A26537B00781D4B /* NetworkManager.swift in Sources */,
 				1A7C3BDC2A26329800781D4B /* AppDelegate.swift in Sources */,
 				1A7C3BFD2A26481900781D4B /* DataSource.swift in Sources */,
 				1A7C3BDE2A26329800781D4B /* SceneDelegate.swift in Sources */,
+				1A7C3C182A266ACA00781D4B /* DetailController.swift in Sources */,
 				1A7C3C0E2A26566500781D4B /* RickModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1A7C3C202A26889900781D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7C3C272A26889900781D4B /* SkillFactorySobes_Unit_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7C3C2D2A2688AA00781D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7C3C3F2A26946400781D4B /* SkillFactorySobes_UITests_Detail_Screen.swift in Sources */,
+				1A7C3C362A2688AA00781D4B /* SkillFactorySobes_UITestsLaunchTests.swift in Sources */,
+				1A7C3C3D2A268E9500781D4B /* IDElements.swift in Sources */,
+				1A7C3C342A2688AA00781D4B /* SkillFactorySobes_UITests_Main_Screem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A7C3C292A26889900781D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7C3BD72A26329800781D4B /* SkillFactorySobes */;
+			targetProxy = 1A7C3C282A26889900781D4B /* PBXContainerItemProxy */;
+		};
+		1A7C3C382A2688AA00781D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7C3BD72A26329800781D4B /* SkillFactorySobes */;
+			targetProxy = 1A7C3C372A2688AA00781D4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1A7C3BE62A26329900781D4B /* LaunchScreen.storyboard */ = {
@@ -432,6 +650,86 @@
 			};
 			name = Release;
 		};
+		1A7C3C2B2A26889900781D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TFP9B86SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tarasenko.ivan-icloud.SkillFactorySobes-Unit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkillFactorySobes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkillFactorySobes";
+			};
+			name = Debug;
+		};
+		1A7C3C2C2A26889900781D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TFP9B86SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tarasenko.ivan-icloud.SkillFactorySobes-Unit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkillFactorySobes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkillFactorySobes";
+			};
+			name = Release;
+		};
+		1A7C3C3A2A2688AA00781D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TFP9B86SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tarasenko.ivan-icloud.SkillFactorySobes-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkillFactorySobes;
+			};
+			name = Debug;
+		};
+		1A7C3C3B2A2688AA00781D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TFP9B86SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tarasenko.ivan-icloud.SkillFactorySobes-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkillFactorySobes;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -449,6 +747,24 @@
 			buildConfigurations = (
 				1A7C3BED2A26329900781D4B /* Debug */,
 				1A7C3BEE2A26329900781D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7C3C2A2A26889900781D4B /* Build configuration list for PBXNativeTarget "SkillFactorySobes_Unit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7C3C2B2A26889900781D4B /* Debug */,
+				1A7C3C2C2A26889900781D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7C3C392A2688AA00781D4B /* Build configuration list for PBXNativeTarget "SkillFactorySobes_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7C3C3A2A2688AA00781D4B /* Debug */,
+				1A7C3C3B2A2688AA00781D4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

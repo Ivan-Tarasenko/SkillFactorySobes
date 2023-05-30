@@ -10,6 +10,7 @@ import Moya
 
 protocol ViewModelProtocol: AnyObject {
     var onUpdataCharacters: (([Characters]) -> Void)? { get set }
+    var allCharacters: [Characters] { get }
 }
 
 final class ViewModel: ViewModelProtocol {
@@ -18,7 +19,7 @@ final class ViewModel: ViewModelProtocol {
     
     private let requester = MoyaProvider<RickEnum.rick>()
     
-    private var allCharacters: [Characters] = [] {
+    internal var allCharacters: [Characters] = [] {
         didSet {
             onUpdataCharacters?(allCharacters)
         }
